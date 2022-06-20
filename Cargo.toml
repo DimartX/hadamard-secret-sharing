@@ -1,5 +1,5 @@
 [package]
-name = "testlib"
+name = "hadamard_sss"
 version = "0.1.0"
 edition = "2021"
 
