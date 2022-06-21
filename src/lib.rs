@@ -12,11 +12,11 @@
 #[macro_use]
 extern crate ndarray;
 mod scheme_impl;
-mod scheme_traits;
+pub mod scheme_traits;
 mod hadamard_matrix;
 use hadamard_matrix::HadamardMatrix;
 use scheme_impl::{HSS, Part};
-use scheme_traits::SharingScheme;
+pub use crate::scheme_traits::SharingScheme;
 use anyhow::Result;
 use ndarray::{arr2, Array2};
 
